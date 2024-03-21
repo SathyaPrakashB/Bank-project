@@ -1,0 +1,105 @@
+/* home.css */
+
+/* home.css */
+
+/* Center the container and set background image */
+.content-container {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-image: url('../components/homebg.jpg'); /* Relative path to the image */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+}
+
+/* Style the welcome message */
+.header {
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+/* Style the features section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.feature {
+  flex: 1;
+  padding: 15px; /* Decreased padding */
+  background-color: #fff; /* Add a white background */
+  border: 3px solid #007bff; /* Add a border */
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.2s ease; /* Add transition effects */
+}
+
+.feature:hover {
+  transform: translateY(-3px); /* Adjusted hover translation */
+  box-shadow: 0 4px 15px rgba(33, 158, 221, 0.2); /* Adjusted hover shadow */
+}
+
+.feature i {
+  font-size: 24px; /* Decreased icon size */
+  margin-bottom: 5px; /* Adjusted margin */
+  color: #007bff;
+}
+
+.feature h2 {
+  font-size: 20px; /* Decreased heading size */
+  margin-bottom: 5px; /* Adjusted margin */
+  color: #007bff;
+}
+
+.feature p {
+  font-size: 14px; /* Decreased paragraph size */
+  color: #555;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
+
+/* Style the contact info */
+.contact-info, .social-media, .support-info {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons i {
+  font-size: 24px;
+  margin: 0 5px;
+  color: white;
+}

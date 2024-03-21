@@ -1,0 +1,11 @@
+/* Container for the form */
+.depositebg-container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-image: url('../components/depositebg.jpg'); /* Relative path to the image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+  }
+  

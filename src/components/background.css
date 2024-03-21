@@ -1,0 +1,33 @@
+/* .home-background{
+   background-image: url('D:\xxxx projects xxxx\react.js\my-project\AAAAAAAAAAAAAA\src\components\homebg.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+
+} */
+
+
+.alldata-background{
+   background-image: url('D:\xxxx projects xxxx\react.js\my-project\STAR Bank\src\components\alldatabg.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+
+}
+
+/* .alldata-background{
+   background-image: url('D:\xxxx projects xxxx\react.js\my-project\STAR Bank\src\components\alldatabg.jpg'), linear-gradient(cyan, cyan);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   background-blend-mode: overlay; 
+} */
+
+/* .alldata-background {
+   background-image: url('D:\xxxx projects xxxx\react.js\my-project\STAR Bank\src\components\alldatabg.jpg'), linear-gradient(cyan, cyan);
+   background-size: cover; 
+   background-position: center;
+   height: 100vh;
+   background-blend-mode: overlay; 
+} */
+

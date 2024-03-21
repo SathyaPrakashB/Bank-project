@@ -1,0 +1,73 @@
+/* CSS for Withdraw component */
+
+#withdraw {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #withdrawCard {
+    background-color: SlateGrey; /* Changed box color to Slate Grey */
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px #25323762;
+    width: 70%; /* Made the box wider */
+    max-width: 800px; /* Added maximum width for flexibility */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Container for the form
+.withdrawbg-container {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-image: url('../components/withdrawbgg.png'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+  #withdrawCard h1 {
+    color: #ffffff; /* Changed heading color to white */
+    margin-bottom: 20px; /* Increased margin for spacing */
+  }
+  
+  #withdrawCard h3 {
+    color: #ffffff; /* Changed heading color to white */
+    margin-bottom: 15px; /* Increased margin for spacing */
+  }
+  
+  #withdrawCard label {
+    color: #ffffff; /* Changed label color to white */
+  }
+  
+  #withdrawAmount {
+    margin-bottom: 20px; /* Increased margin for spacing */
+    width: 100%; /* Made input field flexible */
+    padding: 10px; /* Added padding for better appearance */
+    border-radius: 5px; /* Added border radius for rounded corners */
+    border: none; /* Removed border */
+    background-color: #e0e0e0; /* Added background color */
+  }
+  
+  #withdrawAmount:focus {
+    outline: none;
+  }
+  
+  button {
+    color: white;
+    background-color: #212529;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8d99ae6c;
+  }
+  
+  p {
+    color: #ffffff; /* Changed paragraph color to white */
+    margin-top: 20px; /* Increased margin for spacing */
+  }
+  
